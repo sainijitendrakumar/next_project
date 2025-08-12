@@ -1,0 +1,13 @@
+#https://seehdmovie.xyz/robotstext.html
+
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /search
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /*?*
+Allow: /
+
+Sitemap: https://seehdmovie.xyz/sitemap.xml
