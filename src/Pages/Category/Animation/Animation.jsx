@@ -5,7 +5,7 @@ import conf from "../../../conf/conf";
 import HomePostCard from "../../../Components/Moviecard/HomePostCard";
 import { Query } from "appwrite";
 import { useRouter } from "next/navigation";
-// import Banner from "../../../Components/Adsterra/Banner/Banner_760x60/Banner";
+import Banner from "../../../Components/Adsterra/Banner/Banner_760x60/Banner";
 
 function Animation() {
   const navigate = useRouter();
@@ -48,11 +48,11 @@ function Animation() {
 
   return (
     <div>
-      <h1 className="font-bold text-4xl text-center text-red-600 my-2">
+      <h1 className="font-bold text-2xl sm:text-4xl text-center text-red-600 my-2">
         Download Latest Animation HD Movies Free - SeeHDMovie
       </h1>
       <div className=" w-full flex justify-center items-center">
-        {/* <Banner /> */}
+        <Banner />
       </div>
       <div className="w-full flex flex-wrap card">
         {data && data.length !== 0 ? (
