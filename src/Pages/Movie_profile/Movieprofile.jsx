@@ -9,8 +9,6 @@ import { useParams, useSearchParams } from "next/navigation";
 
 function dataprofile() {
   const params = useParams();
-  // const location = useRouter();
-  // const data = location.state;
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -32,7 +30,6 @@ function dataprofile() {
       }
     );
   }, []);
-  console.log(data);
 
   const Loader = ({ text = "Loading..." }) => {
     return (
