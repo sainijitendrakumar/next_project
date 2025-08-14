@@ -6,6 +6,7 @@ import HomePostCard from "../../../Components/Moviecard/HomePostCard";
 import { Query } from "appwrite";
 import { useRouter } from "next/navigation";
 import Banner from "../../../Components/Adsterra/Banner/Banner_760x60/Banner";
+import Head from "next/head";
 
 function Animation() {
   const navigate = useRouter();
@@ -48,6 +49,21 @@ function Animation() {
 
   return (
     <div>
+      <Head>
+        <title> Download Latest Animation HD Movies Free - SeeHDMovie</title>
+        <meta
+          name="description"
+          content="Download the latest animation movies in HD quality. Fast downloads, no registration required."
+        />
+        <meta
+          name="keywords"
+          content="HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz"
+        />
+        <link
+          rel="canonical"
+          href="https://seehdmovie.xyz/category/download_animation_movies"
+        />
+      </Head>
       <h1 className="font-bold text-2xl sm:text-4xl text-center text-red-600 my-2">
         Download Latest Animation HD Movies Free - SeeHDMovie
       </h1>
