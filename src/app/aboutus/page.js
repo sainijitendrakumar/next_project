@@ -1,21 +1,17 @@
 import Head from "next/head";
 import React from "react";
 
+export const metadata = {
+  title: "about us - SeeHDMovie",
+  description: "Learn more about seeHDmovie – your go-to platform for the latest Bollywood, Hollywood, South Indian, and Hindi Dubbed movies in HD. Fast, free, and updated daily for endless entertainment.",
+        
+  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz",
+  canonical:"https://seehdmovie.xyz/aboutus"
+}
+
 const AboutSection = async () => {
   return (
     <>
-    <Head>
-     <title>about us - SeeHDMovie</title>
-        <meta name="description" content="Learn more about seeHDmovie – your go-to platform for the latest Bollywood, Hollywood, South Indian, and Hindi Dubbed movies in HD. Fast, free, and updated daily for endless entertainment." />
-        <meta
-          name="keywords"
-          content="HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz"
-        />
-        <link
-          rel="canonical"
-          href="https://seehdmovie.xyz/aboutus"
-        />
-    </Head>
     <div className="bg-[#1e1e1e] text-white p-4 md:p-6 rounded border border-gray-700 max-w-4xl mx-auto mt-5">
       {/* Header */}
       <div className="bg-[#2e2e2e] px-4 py-2 rounded-t">

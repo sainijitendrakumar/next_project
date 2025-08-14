@@ -1,22 +1,16 @@
 import Head from "next/head";
 import React from "react";
 
+export const metadata = {
+  title: "DMCA Policy - SeeHDMovie",
+  description: "Review the DMCA Policy of seeHDmovie to learn how we handle copyright infringement claims and protect intellectual property rights.",
+  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz",
+  canonical:"https://seehdmovie.xyz/dmca-policy"
+}
+
 function DMCA() {
   return (
    <>
-    <Head>
-     <title>DMCA Policy - SeeHDMovie</title>
-        <meta name="description" content="Review the DMCA Policy of seeHDmovie to learn how we handle copyright infringement claims and protect intellectual property rights." />
-
-        <meta
-          name="keywords"
-          content="HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz"
-        />
-        <link
-          rel="canonical"
-          href="https://seehdmovie.xyz/dmca-policy"
-        />
-    </Head>
     <div className="bg-[#1e1e1e] text-white p-4 md:p-6 rounded border border-gray-700 max-w-4xl mx-auto mt-5">
       {/* Header */}
       <div className="bg-[#2e2e2e] px-4 py-2 rounded-t">
