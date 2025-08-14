@@ -2,6 +2,20 @@ import React from "react";
 
 function Terms() {
   return (
+    <>
+    <Head>
+     <title>terms and conditions - SeeHDMovie</title>
+       <meta name="description" content="Read the Terms and Conditions of seeHDmovie to understand our usage policies, user responsibilities, and guidelines for accessing our HD movie content." />
+
+        <meta
+          name="keywords"
+          content="HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz"
+        />
+        <link
+          rel="canonical"
+          href="https://seehdmovie.xyz/terms_and_conditions"
+        />
+    </Head>
     <div className="bg-[#1e1e1e] text-white p-4 md:p-6 rounded border border-gray-700 max-w-4xl mx-auto mt-5">
       {/* Header */}
       <div className="bg-[#2e2e2e] px-4 py-2 rounded-t">
@@ -98,6 +112,7 @@ function Terms() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
