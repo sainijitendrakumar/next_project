@@ -31,11 +31,7 @@ export default function RootLayout({ children }) {
       ><Socialbar />
         <Popunder />
         <Navbar />
-        {children}
-        <Footer />
-      </body>
-       {/* Google tag (gtag.js)  */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X4PY6D6N29"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4PY6D6N29"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)}
@@ -43,6 +39,11 @@ export default function RootLayout({ children }) {
 
   gtag('config', 'G-X4PY6D6N29');
 </script>
+        {children}
+        <Footer />
+      </body>
+       {/* Google tag (gtag.js)  */}
+
     </html>
   );
 }
