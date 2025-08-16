@@ -53,7 +53,7 @@ const Navbar = () => {
       <div className="flex flex-wrap mt-4 space-x-5 sm:space-x-6 text-[#c5ebff] font-medium">
         <Link href="/">Home</Link>
         <a
-          href="/category/download_bollywood_movies"
+          href="/category/download-bollywood-movies"
           rel="noopener noreferrer"
           className=" rounded-md cursor-pointer"
         >
@@ -61,21 +61,21 @@ const Navbar = () => {
         </a>
 
         <a
-          href="/category/download_hollywood_movies"
+          href="/category/download-hollywood-movies"
           rel="noopener noreferrer"
           className=" rounded-md cursor-pointer"
         >
           Hollywood Movies
         </a>
         <a
-          href="/category/download_south_indian_movies"
+          href="/category/download-south-indian-movies"
           rel="noopener noreferrer"
           className=" rounded-md cursor-pointer"
         >
           South Indian Dubbed
         </a>
         <a
-          href="/category/download_animation_movies"
+          href="/category/download-animation-movies"
           rel="noopener noreferrer"
           className=" rounded-md cursor-pointer"
         >
