@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Suspense } from "react";
 import Navbar from "@/Components/Navbar/Navbar";
 import Footer from "@/Components/Footer/Footer";
 import Popunder from "@/Components/Adsterra/Popunder/Popunder";
@@ -32,7 +33,9 @@ export default function RootLayout({ children }) {
       >
         {/* <Socialbar />
         <Popunder /> */}
-        <Analytics />
+        <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
         <Navbar />
         {children}
         <Footer />
