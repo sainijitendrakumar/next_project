@@ -5,6 +5,7 @@ import Footer from "@/Components/Footer/Footer";
 import Popunder from "@/Components/Adsterra/Popunder/Popunder";
 import Socialbar from "@/Components/Adsterra/Socialbar/Socialbar";
 import Head from "next/head";
+import Analytics from "@/Components/Analytics/Analytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,14 +29,23 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="xoVUFEZx273sw_m6GyBqFVGg_ogO0ua6jF5d50SZOIc" /></Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      ><Socialbar />
-        <Popunder />
+      >
+        {/* <Socialbar />
+        <Popunder /> */}
+        <Analytics />
         <Navbar />
         {children}
         <Footer />
       </body>
        {/* Google tag (gtag.js)  */}
+{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4PY6D6N29"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
 
+  gtag('config', 'G-X4PY6D6N29');
+</script> */}
     </html>
   );
 }
