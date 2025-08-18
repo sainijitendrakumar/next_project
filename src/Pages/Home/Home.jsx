@@ -59,7 +59,7 @@ function Home() {
           content="Download the latest Hollywood, Bollywood, and South Indian movies in HD quality. Fast downloads, no registration required. New releases updated daily! - seeHDmovie"
         />
       </Head>
-      <h1 className="font-bold text-2xl sm:text-4xl text-center text-red-600 my-2">
+      <h1 className="font-bold font-sans text-2xl sm:text-4xl text-center text-red-600 my-4">
         Watch & Download Latest HD Movies Free - SeeHDMovie
       </h1>
       <div className="w-full flex flex-wrap card ">

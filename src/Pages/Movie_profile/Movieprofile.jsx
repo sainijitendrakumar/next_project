@@ -44,16 +44,16 @@ function dataprofile() {
 
   return (
     <>
-      <div className="">
+      <div className="font-sans">
         {data &&
           data.length !== 0 &&
           data.map((movie) => (
             <div className="flex flex-col items-center" key={movie.title}>
               <h1 className="text-2xl sm:text-3xl font-bold py-2 text-center ">
-                Download | {movie.title} | Full data 720p
+                Download | {movie.title} | Full movie 720p
               </h1>
 
-              <p className="sm:text-xl font-semibold text-center py-2">
+              <p className="w-2/3 sm:text-xl font-semibold text-center py-2">
                 {movie.discription}
               </p>
               <img
@@ -68,7 +68,7 @@ function dataprofile() {
                   margin: "5px",
                 }}
               />
-              <h2 className="font-bold text-2xl sm:text-4xl text-gray-800 text-center">
+              <h2 className="mt-3 font-bold  text-2xl sm:text-4xl text-gray-800 text-center">
                 Download | {movie.title} | {movie.language} | Full data 720p
               </h2>
               <p className="font-bold text-xl sm:text-3xl my-3 text-center">
