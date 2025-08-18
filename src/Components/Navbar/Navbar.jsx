@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#1E293B] w-full  rounded-t-md px-4 py-3 flex flex-col">
+    <nav className="bg-[#1E293B] font-sans w-full  rounded-t-md px-4 py-3 flex flex-col">
       {/* Top bar */}
       <div className="flex items-center justify-between">
         {/* Logo */}
