@@ -104,7 +104,7 @@ function dataprofile() {
               <div className="sm:w-2/3 my-2.5 p-1 text-white bg-[#7d3741] border text-center border-red-500 rounded-3xl">
                 <a
                   className=" text-[13px] sm:text-xl p-2 font-semibold"
-                  href={movie.telegram_url}
+                  href="https://t.me/+bFS7JDcUoa81Y2I1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
