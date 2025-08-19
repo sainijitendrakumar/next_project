@@ -33,14 +33,14 @@ export default function RootLayout({ children }) {
       >
         {/* <Socialbar />
         <Popunder /> */}
-        <Suspense fallback={null}>
-          <Analytics />
-        </Suspense>
+        
         <Navbar />
         {children}
         <Footer />
       </body>
-      
+      <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
     </html>
   );
 }
