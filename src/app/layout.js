@@ -6,7 +6,7 @@ import Footer from "@/Components/Footer/Footer";
 import Popunder from "@/Components/Adsterra/Popunder/Popunder";
 import Socialbar from "@/Components/Adsterra/Socialbar/Socialbar";
 import Head from "next/head";
-import Analytics from "@/Components/Analytics/Analytics";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,9 +38,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
-      <Suspense fallback={null}>
-          <Analytics />
-        </Suspense>
+       <GoogleAnalytics gaId="G-X4PY6D6N29" />
     </html>
   );
 }
