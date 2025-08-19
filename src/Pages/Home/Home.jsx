@@ -47,7 +47,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>seeHDmovie</title>
+        <title>SeeHDmovie</title>
         <meta charSet="UTF-8" />
         <link rel="canonical" href="https://seehdmovie.xyz/" />
         <meta
