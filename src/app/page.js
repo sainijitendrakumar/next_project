@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <>
     <h1 className="font-bold font-sans text-2xl sm:text-4xl text-center text-red-600 my-4">
-        Watch & Download Latest HD Movies Free - SeeHDMovie
+        Free HD Movie Download | Bollywood, Hollywood & Dual Audio Movies - SeeHDMovie
       </h1>
      <Home />
     </>
