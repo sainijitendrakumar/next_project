@@ -1,8 +1,18 @@
+"use client";
+
 import React from "react";
+import { useRouter } from "next/navigation";
 
 function HomePostCard({ item }) {
+  const navigate = useRouter();
+  const handleCardClick = (item) => {
+    navigate.push(`/movie/${item.title}`);
+  };
   return (
-    <div className="relative cursor-pointer rounded-lg shadow hover:shadow-lg transition overflow-hidden w-fit">
+    <div
+      className="relative cursor-pointer rounded-lg shadow hover:shadow-lg transition overflow-hidden w-fit"
+      onClick={() => handleCardClick(item)}
+    >
       {/* Image Wrapper */}
       <div className="relative">
         <img
