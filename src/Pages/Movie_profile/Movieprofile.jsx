@@ -69,7 +69,7 @@ function dataprofile() {
                 }}
               />
               <h2 className="mt-3 font-bold  text-2xl sm:text-4xl text-gray-800 text-center">
-                Download | {movie.title} | {movie.language} | Full data 720p
+                Download | {movie.title} | {movie.language} | Full Movie 720p
               </h2>
               <p className="font-bold text-xl sm:text-3xl my-3 text-center">
                 Click on the Below Download Button to Download file
