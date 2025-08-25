@@ -2,7 +2,7 @@ import Home from "@/Pages/Home/Home";
 export const metadata = {
   title: "SeeHDmovie: Movie Download",
   description: "Download the latest Hollywood, Bollywood, and South Indian movies in HD quality. Fast and free movie download, no registration required. only on seehdmovie",
-   keywords:"HD movie download, latest Movies, movie download site, seehdmovie",
+   keywords:"HD movie. download, latest Movies, seehdmovie",
     canonical:"https://seehdmovie.xyz/"
 };
 
