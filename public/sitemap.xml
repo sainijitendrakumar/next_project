@@ -1,57 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://seehdmovie.xyz/</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://seehdmovie.xyz/category/bollywood-movies</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seehdmovie.xyz/category/hollywood-movies</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seehdmovie.xyz/category/south-indian-movies</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seehdmovie.xyz/category/animation-movies</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seehdmovie.xyz/aboutus</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://seehdmovie.xyz/terms-and-conditions</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://seehdmovie.xyz/disclaimer</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://seehdmovie.xyz/dmca-policy</loc>
-    <lastmod>2025-08-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+<loc>https://seehdmovie.xyz</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://seehdmovie.xyz/</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://seehdmovie.xyz/category/bollywood-movies</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://seehdmovie.xyz/category/hollywood-movies</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://seehdmovie.xyz/category/south-indian-movies</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://seehdmovie.xyz/category/animation-movies</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://seehdmovie.xyz/aboutus</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://seehdmovie.xyz/terms-and-conditions</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://seehdmovie.xyz/disclaimer</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://seehdmovie.xyz/dmca-policy</loc>
+<changefreq>weekly</changefreq>
+</url>
 </urlset>
