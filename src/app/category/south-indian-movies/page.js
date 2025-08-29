@@ -1,3 +1,4 @@
+import Head from "next/head";
 import South from "../../../Pages/Category/SouthIndian/SouthIndian"
 export const metadata = {
     title: "Download Latest South Indain HD Movies Free - SeeHDMovie",
@@ -11,6 +12,9 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+    <Head>
+      <link rel="canonical" href="https://seehdmovie.xyz/category/south-indian-movies" />
+    </Head>
     <h1 className="font-bold font-sans text-2xl sm:text-3xl text-center text-red-600 my-4">
       Latest South Indian Free HD Movie Download | Dual Audio Movies - SeeHDMovie
       </h1>
