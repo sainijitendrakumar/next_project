@@ -4,7 +4,7 @@ export const metadata = {
   description: "Download the latest Hollywood movies in free HD—stream or download dual-audio and high-definition films at SeeHDMovie.",
         
   keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz",
-  canonical:"https://seehdmovie.xyz/category/download-hollywood-movies"
+  canonical:"https://seehdmovie.xyz/category/hollywood-movies"
 }
 
 export default function Page() {

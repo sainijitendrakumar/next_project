@@ -3,8 +3,8 @@ export const metadata = {
     title: "Download Latest South Indain HD Movies Free - SeeHDMovie",
   description: "Free HD download of South Indian movies—enjoy the latest Tamil, Telugu, Malayalam & Kannada films in dual audio on SeeHDMovie.",
         
-  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz",
-  canonical:"https://seehdmovie.xyz/category/download-south-indian-movies"
+  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovies, seehdmovie",
+  canonical:"https://seehdmovie.xyz/category/south-indian-movies"
 }
 
 
