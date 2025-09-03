@@ -25,9 +25,9 @@ export default async function Animation() {
   return (
     <div>
       {/* Banner */}
-      {/* <div className="w-full flex justify-center items-center">
+      <div className="w-full flex justify-center items-center">
         <Banner />
-      </div> */}
+      </div>
 
       {/* Movie List */}
       <div className="w-full flex flex-wrap card">
