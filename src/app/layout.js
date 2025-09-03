@@ -38,7 +38,6 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
        <GoogleAnalytics gaId="G-X4PY6D6N29" />
-       <script src="/api/proxy"></script>
     </html>
   );
 }
