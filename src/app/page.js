@@ -1,4 +1,5 @@
 import Home from "@/Pages/Home/Home";
+import Head from "next/head";
 export const metadata = {
   title: "SeeHDmovie - Movies Download",
   description: "Download the latest Hollywood, Bollywood, and South Indian movies in HD quality. Fast and free movie download, no registration required. only on seehdmovie",
