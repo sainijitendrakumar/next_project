@@ -66,7 +66,7 @@ export default async function Dataprofile({ params }) {
           {/* ✅ Drive Link */}
           {movie.movie_drive_url ? (
             <>
-              <p className="font-[12px] text-[#aaa]">
+              <p className="font-[12px] text-[#aaa] my-4">
                 <span className="bg-[#FF6D00] text-white font-bold text-[15px] sm:text-[20px] px-[38px] py-[19px] rounded-[7px]">
                   G-Drive [GDToT] Links:
                 </span>
@@ -113,7 +113,7 @@ export default async function Dataprofile({ params }) {
           )}
 
           {/* ✅ Telegram Link (always show) */}
-          <p className="font-[12px] text-[#aaa]">
+          <p className="font-[12px] text-[#aaa] my-4">
             <span className="bg-[#FF6D00] text-white font-bold text-[15px] sm:text-[20px] px-[38px] py-[19px] rounded-[7px]">
               Telegram Links:
             </span>
