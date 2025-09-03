@@ -3,23 +3,29 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   try {
-    // External script URL
     const url =
       "https://creative-sb1.com/sb/notifications/utility/default/us/blog/Progamerage/message_redcircle2/9/js/script.js";
 
-    // Fetch script from external server
-    const res = await fetch(url);
+    // Explicitly disable caching (sometimes Next.js caches SSR fetches)
+    const res = await fetch(url, {
+      cache: "no-store",
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; Next.js Server)",
+      },
+    });
 
     if (!res.ok) {
-      throw new Error("Failed to fetch external script");
+      return NextResponse.json(
+        { error: `External fetch failed with status ${res.status}` },
+        { status: res.status }
+      );
     }
 
-    const script = await res.text(); // since it's JS file
+    const script = await res.text();
 
-    // Return it with proper headers
     return new NextResponse(script, {
       headers: {
-        "Content-Type": "application/javascript",
+        "Content-Type": "application/javascript; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
       },
     });
