@@ -1,74 +1,58 @@
-"use client";
-import React, { useState, useEffect } from "react";
+// app/category/south-indian/page.jsx
 import { databases } from "../../../Appwrite/Auth";
-import Head from "next/head";
 import conf from "../../../conf/conf";
-import HomePostCard from "../../../Components/Moviecard/HomePostCard";
 import { Query } from "appwrite";
-import { useRouter } from "next/navigation";
+import HomePostCard from "../../../Components/Moviecard/HomePostCard";
 import Banner from "../../../Components/Adsterra/Banner/Banner_760x60/Banner";
+import Link from "next/link";
 
-function SouthIndian() {
-  const navigate = useRouter();
-  const [data, setData] = useState([]);
+// ✅ Server Component (no "use client")
+export default async function SouthIndianMovies() {
+  let data = [];
 
-  useEffect(() => {
-    const promise = databases.listDocuments(
+  try {
+    const res = await databases.listDocuments(
       conf.appwriteDatabaseId,
       conf.appwriteCollectionId,
       [
-        Query.equal("movie-type", "south-indian"), // Filter only south indian movies
+        Query.equal("movie-type", "south-indian"), // Filter only South Indian movies
         Query.orderDesc("$createdAt"),
       ]
     );
 
-    promise.then(
-      (res) => {
-        setData(res.documents);
-      },
-      (error) => {
-        console.log(error);
-      }
-    );
-  }, []);
-
-  const handleCardClick = (movie) => {
-    navigate.push(`/movie/${movie.title}`);
-  };
-
-  const Loader = ({ text = "Loading..." }) => {
-    return (
-      <div className="w-full h-screen flex items-center justify-center">
-        <div className="flex flex-col items-center gap-3">
-          <div className="w-12 h-12 border-4 border-gray-500 border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-lg text-gray-600 font-medium">{text}</p>
-        </div>
-      </div>
-    );
-  };
+    data = res.documents;
+  } catch (error) {
+    console.error("Appwrite fetch error:", error);
+  }
 
   return (
     <div>
-      <div className=" w-full flex justify-center items-center">
+      {/* Banner */}
+      <div className="w-full flex justify-center items-center">
         <Banner />
       </div>
+
+      {/* Movie Cards */}
       <div className="w-full flex flex-wrap card">
         {data && data.length !== 0 ? (
           data.map((movie) => (
-            <div
+            <Link
+              href={`/movie/${movie.title}`}
               key={movie.$id}
               className="lala m-3 rounded-md"
-              onClick={() => handleCardClick(movie)}
             >
               <HomePostCard item={movie} />
-            </div>
+            </Link>
           ))
         ) : (
-          <Loader />
+          <div className="w-full h-screen flex items-center justify-center">
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-12 h-12 border-4 border-gray-500 border-t-transparent rounded-full animate-spin"></div>
+              <p className="text-lg text-gray-600 font-medium">Loading...</p>
+            </div>
+          </div>
         )}
       </div>
     </div>
   );
 }
-
-export default SouthIndian;
