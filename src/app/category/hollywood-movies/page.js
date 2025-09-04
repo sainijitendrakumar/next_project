@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <>
     <h1 className="font-bold font-sans text-2xl sm:text-3xl text-center text-red-600 my-4">
-      Best Filmyzilla Alternative for Hindi Dubbed Hollywood Movies | Dual Audio Movies - SeeHDMovie
+      Best Filmyzilla Alternative for Hindi Dubbed Hollywood Movies
       </h1>
       <Hollywood />
     </>
