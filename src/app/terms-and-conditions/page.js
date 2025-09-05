@@ -14,9 +14,9 @@ function Terms() {
     <div className="bg-[#1e1e1e] text-white p-4 md:p-6 rounded border border-gray-700 max-w-4xl mx-auto mt-5">
       {/* Header */}
       <div className="bg-[#2e2e2e] px-4 py-2 rounded-t">
-        <h2 className="text-lg md:text-xl font-semibold">
+        <h1 className="text-lg md:text-xl font-semibold">
           Terms and Conditions
-        </h2>
+        </h1>
       </div>
 
       {/* Content */}
