@@ -4,17 +4,14 @@ import conf from "@/conf/conf";
 import { Query } from "appwrite";
 
 export default async function Dataprofile({ params }) {
-  const { title } = await params; // ✅ params must be awaited
+  const { slug } = await params; // ✅ params must be awaited
   let data = [];
 
   try {
     const res = await databases.listDocuments(
       conf.appwriteDatabaseId,
       conf.appwriteCollectionId,
-      [
-        Query.equal("title", decodeURIComponent(title)),
-        Query.orderDesc("$createdAt"),
-      ]
+      [Query.equal("slug", slug), Query.orderDesc("$createdAt")]
     );
     data = res.documents;
   } catch (error) {

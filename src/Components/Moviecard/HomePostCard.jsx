@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 function HomePostCard({ item }) {
   const navigate = useRouter();
   const handleCardClick = (item) => {
-    navigate.push(`/movie/${item.title}`);
+    navigate.push(`/movie/${item.slug}`);
   };
   return (
     <div

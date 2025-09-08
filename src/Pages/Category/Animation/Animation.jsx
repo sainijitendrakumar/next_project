@@ -34,7 +34,7 @@ export default async function Animation() {
         {data && data.length !== 0 ? (
           data.map((movie) => (
             <Link
-              href={`/movie/${movie.title}`}
+              href={`/movie/${movie.slug}`}
               key={movie.$id}
               className="lala m-3 rounded-md"
             >

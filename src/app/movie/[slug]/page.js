@@ -4,7 +4,7 @@ import conf from "@/conf/conf";
 import { Query } from "appwrite";
 
 export async function generateMetadata({ params }) {
-  const { title } = await params; // ✅ FIXED
+  const { slug } = await params; // ✅ FIXED
 
   let movie = null;
   try {
@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
       conf.appwriteDatabaseId,
       conf.appwriteCollectionId,
       [
-        Query.equal("title", decodeURIComponent(title)),
+        Query.equal("slug", slug),
         Query.orderDesc("$createdAt"),
       ]
     );
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
       keywords:
         "HD movies, free download, latest movies, SeeHDMovie",
       alternates: {
-        canonical: `https://seehdmovie.xyz/movie/${encodeURIComponent(title)}`,
+        canonical: `https://seehdmovie.xyz/movie/${slug}`,
       },
     };
   }
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }) {
     keywords:
       "HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovies, seehdmovie",
     alternates: {
-      canonical: `https://seehdmovie.xyz/movie/${encodeURIComponent(title)}`,
+      canonical: `https://seehdmovie.xyz/movie/${slug}`,
     },
   };
 }
