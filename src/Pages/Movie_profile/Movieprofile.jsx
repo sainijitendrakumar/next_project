@@ -88,27 +88,29 @@ export default async function Dataprofile({ params }) {
             Array.isArray(movie.web_url) &&
             movie.web_url.length > 0 && (
               <>
-                <p className="font-[12px] text-[#aaa]">
+                <p className="font-[12px] text-[#aaa] mt-3">
                   <span className="bg-[#FF6D00] text-white font-bold text-[15px] sm:text-[20px] px-[38px] py-[19px] rounded-[7px]">
                     Alternative Web Links:
                   </span>
                 </p>
-                {movie.web_url.map((link, index) => (
-                  <div
-                    key={index}
-                    className="sm:w-2/3 my-2.5 p-1 text-white bg-[#7d3741] border text-center border-blue-500 rounded-3xl"
-                  >
-                    <a
-                      className="text-[13px] sm:text-xl p-2 font-semibold"
-                      href={link}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                <div className="sm:w-full my-2.5 p-1 flex flex-col items-center">
+                  {movie.web_url.map((link, index) => (
+                    <div
+                      key={index}
+                      className="sm:w-2/3 my-2.5 p-1 text-white bg-[#7d3741] border text-center border-blue-500 rounded-3xl"
                     >
-                      {movie.title} {index + 1} | {movie.language} | [Link{" "}
-                      {index + 1}]
-                    </a>
-                  </div>
-                ))}
+                      <a
+                        className="text-[13px] sm:text-xl p-2 font-semibold"
+                        href={link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {movie.title} {index + 1} | {movie.language} | [Link{" "}
+                        {index + 1}]
+                      </a>
+                    </div>
+                  ))}
+                </div>
               </>
             )
           )}
