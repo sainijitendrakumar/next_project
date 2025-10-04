@@ -48,7 +48,7 @@ export default async function Dataprofile({ params }) {
             className="rounded-md my-3"
           />
 
-          <h2 className="mt-3 font-bold text-2xl sm:text-4xl text-gray-800 text-center">
+          <h2 className="mt-3 font-bold text-2xl sm:text-3xl text-gray-800 text-center">
             Download | {movie.title} | {movie.language} | Full Movie 720p
           </h2>
 
@@ -90,8 +90,12 @@ export default async function Dataprofile({ params }) {
               <>
                 <p className="font-[12px] text-[#aaa] mt-3">
                   <span className="bg-[#FF6D00] text-white font-bold text-[15px] sm:text-[20px] px-[38px] py-[19px] rounded-[7px]">
-                    Alternative Web Links:
+                    Web Links:
                   </span>
+                </p>
+                <p>
+                  Note:- if there is any problem in downloading then use any vpn
+                  and try again
                 </p>
                 <div className="sm:w-full my-2.5 p-1 flex flex-col items-center">
                   {movie.web_url.map((link, index) => (
