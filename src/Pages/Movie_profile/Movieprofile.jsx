@@ -68,7 +68,7 @@ export default async function Dataprofile({ params }) {
                   G-Drive [GDToT] Links:
                 </span>
               </p>
-              <p className="mt-3">
+              <p>
                 Note:- if there is any problem in downloading then use any vpn
                 and try again
               </p>
@@ -93,7 +93,7 @@ export default async function Dataprofile({ params }) {
                     Web Links:
                   </span>
                 </p>
-                <p>
+                <p className="mt-3">
                   Note:- if there is any problem in downloading then use any vpn
                   and try again
                 </p>
