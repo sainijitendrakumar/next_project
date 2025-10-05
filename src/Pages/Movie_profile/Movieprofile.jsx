@@ -69,8 +69,8 @@ export default async function Dataprofile({ params }) {
                 </span>
               </p>
               <p>
-                Note:- if there is any problem in downloading then use any vpn
-                and try again
+                Note:- if there is any problem in downloading movie then use any
+                vpn and try again
               </p>
               <div className="sm:w-2/3 my-2.5 p-1 text-white bg-[#7d3741] border text-center border-red-500 rounded-3xl">
                 <a
