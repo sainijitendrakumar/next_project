@@ -57,7 +57,9 @@ export default async function Dataprofile({ params }) {
           </p>
 
           <h3 className="text-red-700 text-xl sm:text-2xl font-bold my-2 text-center">
-            : DOWNLOAD LINKS :
+            <a href="https://www.effectivegatecpm.com/bpb0tdptd?key=d3d83df6faaa064428686b1bb9a03642">
+              : DOWNLOAD :
+            </a>{" "}
           </h3>
 
           {/* ✅ Drive Link */}
