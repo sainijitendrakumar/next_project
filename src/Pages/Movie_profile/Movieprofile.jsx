@@ -61,7 +61,7 @@ export default async function Dataprofile({ params }) {
               href="https://www.effectivegatecpm.com/bpb0tdptd?key=d3d83df6faaa064428686b1bb9a03642"
               target="_blank"
             >
-              -: DOWNLOAD :-
+              : DOWNLOAD :
             </a>{" "}
           </h3>
 
