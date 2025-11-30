@@ -10,7 +10,7 @@ function HomePostCard({ item }) {
   };
   return (
     <div
-      className="relative cursor-pointer rounded-lg shadow hover:shadow-lg transition overflow-hidden w-fit"
+      className="relative cursor-pointer rounded shadow hover:shadow-lg transition overflow-hidden w-fit"
       onClick={() => handleCardClick(item)}
     >
       {/* Image Wrapper */}
