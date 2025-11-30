@@ -16,7 +16,7 @@ const Navbar = () => {
               <path d="M10 0C4.477 0 0 4.477 0 10h2a8 8 0 0116 0h2c0-5.523-4.477-10-10-10zM2 10c0 4.418 3.582 8 8 8a8 8 0 008-8h-2a6 6 0 11-12 0H2z" />
             </svg> */}
             {/* <p className="text-red-500">Mkvcinemas</p> */}
-            <Image src="/logo.png" width={200} height={200} alt="Logo" />
+            <Image src="/logo.png" alt="Logo" />
           </div>
         </div>
 
