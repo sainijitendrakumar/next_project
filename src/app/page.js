@@ -18,7 +18,7 @@ export default function Page() {
         />
         <meta
           name="keywords"
-          content="HD movie, download, seehd, latest Movies, seehdmovies"
+          content="HD movie, download, seehd, latest Movies, Mkvcinemas"
         />
         <link rel="canonical" href="https://seehdmovie.xyz/" />
       </Head>

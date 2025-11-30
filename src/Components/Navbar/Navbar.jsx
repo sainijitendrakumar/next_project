@@ -1,6 +1,7 @@
 import React from "react";
 import MovieSearch from "../MovieSearch/MovieSearch";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,8 @@ const Navbar = () => {
             {/* <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
               <path d="M10 0C4.477 0 0 4.477 0 10h2a8 8 0 0116 0h2c0-5.523-4.477-10-10-10zM2 10c0 4.418 3.582 8 8 8a8 8 0 008-8h-2a6 6 0 11-12 0H2z" />
             </svg> */}
-            <p className="text-red-500">SeeHDMovie</p>
+            <p className="text-red-500">Mkvcinemas</p>
+            <Image src="/images/logo.png" width={200} height={200} alt="Logo" />
           </div>
         </div>
 

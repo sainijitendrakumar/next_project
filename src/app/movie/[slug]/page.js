@@ -35,12 +35,12 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `Download ${movie.title} (${movie.language}) | Full HD 720p Free - SeeHDMovie`,
+    title: `Download ${movie.title} (${movie.language}) | Full HD 720p Free - Mkvcinemas`,
     description:
       movie.description?.slice(0, 160) ||
-      `Watch and download ${movie.title} in ${movie.language}. Full HD 720p available on SeeHDMovie.`,
+      `Watch and download ${movie.title} in ${movie.language}. Full HD 720p available on Mkvcinemas.`,
     keywords:
-      "HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovies, seehdmovie",
+      "HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, Mkvcinemas",
     alternates: {
       canonical: `https://seehdmovie.xyz/movie/${slug}`,
     },
