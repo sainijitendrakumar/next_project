@@ -1,7 +1,7 @@
 import Home from "@/Pages/Home/Home";
 import Head from "next/head";
 export const metadata = {
-  title: "Mkvcinemas - Movies Download",
+  title: "Mkvcinemas | Mkvcinemas.com | - Download movie in Hindi dubbed ",
   description: "Download the latest Hollywood, Bollywood, and South Indian movies in HD quality. Fast and free movie download - Mkvcinemas",
    keywords:"HD movie, download, seehd, latest Movies, Mkvcinemas",
     canonical:"https://seehdmovie.xyz/"
@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Mkvcinemas - Movies Download</title>
+        <title>Mkvcinemas | Mkvcinemas.com | - Download movie in Hindi dubbed</title>
         <meta
           name="description"
           content="Download the latest Hollywood, Bollywood, and South Indian movies in HD quality. Fast and free movie download, no registration required. Only on SeeHDmovie."
