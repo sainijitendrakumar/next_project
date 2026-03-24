@@ -82,13 +82,14 @@ export default async function BollywoodMovies() {
     const res = await databases.listDocuments(
       conf.appwriteDatabaseId,
       conf.appwriteCollectionId,
-      [Query.orderDesc("$createdAt")]
+      [Query.orderDesc("$createdAt")],
     );
 
     data = res.documents;
   } catch (error) {
     console.error("Appwrite fetch error:", error);
   }
+  console.log(data);
 
   return (
     <>
