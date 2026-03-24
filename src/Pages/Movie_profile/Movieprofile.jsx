@@ -14,7 +14,6 @@ export default async function Dataprofile({ params }) {
       [Query.equal("slug", slug), Query.orderDesc("$createdAt")],
     );
     data = res.documents;
-    // console.log(data);
   } catch (error) {
     console.error("Error fetching movie:", error);
   }
