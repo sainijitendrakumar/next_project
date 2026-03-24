@@ -6,7 +6,6 @@ import { Query } from "appwrite";
 export default async function Dataprofile({ params }) {
   const { slug } = await params; // ✅ params must be awaited
   let data = [];
-
   try {
     const res = await databases.listDocuments(
       conf.appwriteDatabaseId,
