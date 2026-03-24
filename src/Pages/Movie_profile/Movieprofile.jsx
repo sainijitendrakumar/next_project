@@ -11,9 +11,10 @@ export default async function Dataprofile({ params }) {
     const res = await databases.listDocuments(
       conf.appwriteDatabaseId,
       conf.appwriteCollectionId,
-      [Query.equal("slug", slug), Query.orderDesc("$createdAt")]
+      [Query.equal("slug", slug), Query.orderDesc("$createdAt")],
     );
     data = res.documents;
+    console.log(data);
   } catch (error) {
     console.error("Error fetching movie:", error);
   }
