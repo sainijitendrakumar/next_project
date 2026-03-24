@@ -90,6 +90,7 @@ export default async function BollywoodMovies() {
     console.error("Appwrite fetch error:", error);
   }
   console.log(data);
+  console.log("ajksbfsk");
 
   return (
     <>
