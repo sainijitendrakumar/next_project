@@ -46,7 +46,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
-        seehdmovie © 2025
+        mkvcinemas.space © 2025
       </div>
       {/* Disclaimer */}
       <div className="sm:col-span-2 text-center">
