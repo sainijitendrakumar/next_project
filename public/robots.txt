@@ -1,4 +1,4 @@
-#https://seehdmovie.xyz/robotstext.html
+#https://mkvcinemas.space/robotstext.html
 
 User-agent: *
 Disallow: /admin/
@@ -9,4 +9,4 @@ Disallow: /api/
 Disallow: /dashboard/
 Allow: /
 
-Sitemap: https://seehdmovie.xyz/sitemap.xml
+Sitemap: https://mkvcinemas.space/sitemap.xml
