@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <meta charSet="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/vite.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="google-site-verification" content="xoVUFEZx273sw_m6GyBqFVGg_ogO0ua6jF5d50SZOIc" />
+        <meta name="google-site-verification" content="wnn5r84XGcW6vFo4YD9AyfDCBzKdWwxpmL6RpJ7TpBA" />
         </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
