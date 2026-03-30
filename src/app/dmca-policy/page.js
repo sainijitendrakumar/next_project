@@ -4,8 +4,8 @@ import React from "react";
 export const metadata = {
   title: "DMCA Policy - SeeHDMovie",
   description: "Review the DMCA Policy of seeHDmovie to learn how we handle copyright infringement claims and protect intellectual property rights.",
-  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz",
-  canonical:"https://seehdmovie.xyz/dmca-policy"
+  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, mkvcinemas.space",
+  canonical:"https://mkvcinemas.space/dmca-policy"
 }
 
 function DMCA() {

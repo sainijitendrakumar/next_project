@@ -5,8 +5,8 @@ export const metadata = {
   title: "about us - SeeHDMovie",
   description: "Learn more about seeHDmovie – your go-to platform for the latest Bollywood, Hollywood, South Indian, and Hindi Dubbed movies in HD. Fast, free, and updated daily for endless entertainment.",
         
-  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz",
-  canonical:"https://seehdmovie.xyz/aboutus"
+  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, mkvcinemas.space",
+  canonical:"https://mkvcinemas.space/aboutus"
 }
 
 const AboutSection = async () => {

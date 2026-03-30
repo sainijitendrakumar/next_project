@@ -5,8 +5,8 @@ export const metadata = {
   title: "Disclaimer - SeeHDMovie",
   description: "Read the Disclaimer of seeHDmovie to understand our content accuracy, copyright policy, and limitations of liability for using our website.",
         
-  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, seehdmovie.xyz",
-  canonical:"https://seehdmovie.xyz/disclaimer"
+  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, mkvcinemas.space",
+  canonical:"https://mkvcinemas.space/disclaimer"
 }
 
 function Disclaimer() {
@@ -22,7 +22,7 @@ function Disclaimer() {
       <div className="p-4 text-sm md:text-base leading-relaxed">
         <h3 className="text-3xl font-semibold mb-2">Welcome to seeHDmovie!</h3>{" "}
         <p>
-          All content shared on seehdmovie.xyz is freely available across the
+          All content shared on mkvcinemas.space is freely available across the
           internet and has been shared by external sources. We do not upload,
           host, or store any copyrighted material on our servers. Our platform
           functions purely as an index of content that is already publicly
@@ -34,7 +34,7 @@ function Disclaimer() {
         </h3>{" "}
         <ul className="text-white list-disc ml-6">
           <li>
-            seehdmovie.xyz does not host any copyrighted files (videos, images,
+            mkvcinemas.space does not host any copyrighted files (videos, images,
             or downloads).
           </li>
           <li>

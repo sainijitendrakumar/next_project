@@ -5,7 +5,7 @@ export const metadata = {
   description: "Free HD download of South Indian movies—enjoy the latest Tamil, Telugu, Malayalam & Kannada films in dual audio on Mkvcinemas.",
         
   keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, Mkvcinemass, Mkvcinemas",
-  canonical:"https://seehdmovie.xyz/category/south-indian-movies"
+  canonical:"https://mkvcinemas.space/category/south-indian-movies"
 }
 
 

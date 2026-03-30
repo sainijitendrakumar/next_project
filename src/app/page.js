@@ -4,7 +4,7 @@ export const metadata = {
   title: " Mkvcinemas | Mkvcinemas.com | - Download movie in Hindi dubbed ",
   description: "Download the latest Hollywood, Bollywood, and South Indian movies in HD quality. Fast and free movie download - Mkvcinemas",
    keywords:"HD movie, download, seehd, latest Movies, Mkvcinemas",
-    canonical:"https://seehdmovie.xyz/"
+    canonical:"https://mkvcinemas.space/"
 };
 
 export default function Page() {
@@ -20,7 +20,7 @@ export default function Page() {
           name="keywords"
           content="HD movie, download, seehd, latest Movies, Mkvcinemas"
         />
-        <link rel="canonical" href="https://seehdmovie.xyz/" />
+        <link rel="canonical" href="https://mkvcinemas.space/" />
       </Head>
     <h1 className="font-bold font-sans text-2xl sm:text-3xl text-center text-red-600 my-4">
       Mkvcinemas | Mkvcinemas.com | Bollywood, Hollywood & Dual Audio Movies
