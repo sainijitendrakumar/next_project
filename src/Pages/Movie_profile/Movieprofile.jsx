@@ -33,7 +33,7 @@ export default async function Dataprofile({ params }) {
       {data.map((movie) => (
         <div className="flex flex-col items-center" key={movie.$id}>
           <h1 className="text-2xl sm:text-3xl font-bold py-2 text-center">
-            Download | {movie.title} | Full movie 720p
+            Download | {movie.title} | Full movie
           </h1>
 
           <p className="w-2/3 sm:text-xl font-semibold text-center py-2">
@@ -68,8 +68,8 @@ export default async function Dataprofile({ params }) {
           {movie.movie_drive_url ? (
             <>
               <p className="font-[12px] text-[#aaa] my-4">
-                <span className="bg-[#FF6D00] text-white font-bold text-[15px] sm:text-[20px] px-[38px] py-[19px] rounded-[7px]">
-                  G-Drive [GDToT] Links:
+                <span className="bg-[#FF6D00] text-white font-bold text-[15px] sm:text-[20px] px-[38px] py-[15px] rounded-[7px]">
+                  G-Drive Links:
                 </span>
               </p>
               <p>
@@ -83,7 +83,7 @@ export default async function Dataprofile({ params }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {movie.title} | {movie.language} | [720p Link]
+                  {movie.title} | {movie.language}
                 </a>
               </div>
             </>
