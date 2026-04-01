@@ -32,7 +32,7 @@ export default async function Dataprofile({ params }) {
     <div className="font-sans">
       {data.map((movie) => (
         <div className="flex flex-col items-center" key={movie.$id}>
-          <h1 className="text-2xl sm:text-3xl font-bold py-2 text-center">
+          <h1 className="text-xl sm:text-2xl font-bold py-2 text-center">
             Download | {movie.title}
           </h1>
 
@@ -47,7 +47,7 @@ export default async function Dataprofile({ params }) {
             className="rounded-md my-3"
           />
 
-          <h2 className="mt-3 font-bold text-2xl sm:text-3xl text-gray-800 text-center">
+          <h2 className="mt-3 font-bold text-xl sm:text-2xl text-gray-800 text-center">
             Download | {movie.title}
           </h2>
 
@@ -83,7 +83,7 @@ export default async function Dataprofile({ params }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {movie.title} | {movie.language}
+                  {movie.title}
                 </a>
               </div>
             </>
