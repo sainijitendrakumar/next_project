@@ -80,7 +80,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className=" rounded-md cursor-pointer"
         >
-          South Indian Dubbed
+          South Movies
         </a>
         <a
           href="/category/animation-movies"
