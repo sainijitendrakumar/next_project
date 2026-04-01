@@ -4,7 +4,7 @@ export const metadata = {
   description:
     "Download Bollywood movies for free in HD—enjoy the latest Hindi films, dual-audio options, and fast downloads at Mkvcinemas.",
   keywords:
-    "HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, Mkvcinemas, Mkvcinemas.xyz",
+    "HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, Mkvcinemas, Mkvcinemas.space",
   canonical: "https://mkvcinemas.space/category/bollywood-movies",
 };
 

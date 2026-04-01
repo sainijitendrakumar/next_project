@@ -2,10 +2,10 @@ import Head from "next/head";
 import React from "react";
 
 export const metadata = {
-  title: "Disclaimer - SeeHDMovie",
-  description: "Read the Disclaimer of seeHDmovie to understand our content accuracy, copyright policy, and limitations of liability for using our website.",
+  title: "Disclaimer - mkvcinemas",
+  description: "Read the Disclaimer of mkvcinemas to understand our content accuracy, copyright policy, and limitations of liability for using our website.",
         
-  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, mkvcinemas.space",
+  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, mkvcinemas, mkvcinemas.space",
   canonical:"https://mkvcinemas.space/disclaimer"
 }
 
@@ -20,7 +20,7 @@ function Disclaimer() {
 
       {/* Content */}
       <div className="p-4 text-sm md:text-base leading-relaxed">
-        <h3 className="text-3xl font-semibold mb-2">Welcome to seeHDmovie!</h3>{" "}
+        <h3 className="text-3xl font-semibold mb-2">Welcome to mkvcinemas!</h3>{" "}
         <p>
           All content shared on mkvcinemas.space is freely available across the
           internet and has been shared by external sources. We do not upload,

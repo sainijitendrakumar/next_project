@@ -33,7 +33,7 @@ export default async function Dataprofile({ params }) {
       {data.map((movie) => (
         <div className="flex flex-col items-center" key={movie.$id}>
           <h1 className="text-2xl sm:text-3xl font-bold py-2 text-center">
-            Download | {movie.title} | Full movie
+            Download | {movie.title}
           </h1>
 
           <p className="w-2/3 sm:text-xl font-semibold text-center py-2">
@@ -48,19 +48,19 @@ export default async function Dataprofile({ params }) {
           />
 
           <h2 className="mt-3 font-bold text-2xl sm:text-3xl text-gray-800 text-center">
-            Download | {movie.title} | {movie.language} | Full Movie 720p
+            Download | {movie.title}
           </h2>
 
-          <p className="font-bold text-xl sm:text-3xl my-3 text-center">
+          {/* <p className="font-bold text-xl sm:text-3xl my-3 text-center">
             Click on the Below Download Button to Download file
-          </p>
+          </p> */}
 
           <h3 className="text-red-700 text-xl sm:text-2xl font-bold my-2 text-center">
             <a
               href="https://www.effectivegatecpm.com/bpb0tdptd?key=d3d83df6faaa064428686b1bb9a03642"
               target="_blank"
             >
-              : DOWNLOAD :
+              : DOWNLOAD LINKS :
             </a>{" "}
           </h3>
 
@@ -136,7 +136,7 @@ export default async function Dataprofile({ params }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {movie.title} | {movie.language} | [720p Link]
+              {movie.title} | {movie.language} |
             </a>
           </div>
         </div>

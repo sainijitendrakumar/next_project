@@ -2,9 +2,9 @@ import Head from "next/head";
 import React from "react";
 
 export const metadata = {
-  title: "DMCA Policy - SeeHDMovie",
-  description: "Review the DMCA Policy of seeHDmovie to learn how we handle copyright infringement claims and protect intellectual property rights.",
-  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, seehdmovie, mkvcinemas.space",
+  title: "DMCA Policy - mkvcinemas",
+  description: "Review the DMCA Policy of mkvcinemas to learn how we handle copyright infringement claims and protect intellectual property rights.",
+  keywords:"HD movie download, Bollywood movies, Hollywood movies, Dual audio movies, 720p movies, 1080p movies, full movie download, free movie download, Hindi dubbed movies, South Indian movies, movie download site, latest movies 2025, mkvcinemas, mkvcinemas.space",
   canonical:"https://mkvcinemas.space/dmca-policy"
 }
 
@@ -23,7 +23,7 @@ function DMCA() {
       <div className="p-4 text-sm md:text-base leading-relaxed">
         <h3 className="text-3xl font-semibold mb-2">DMCA & Copyright Policy</h3>{" "}
         <p className="mt-2">
-          seeHDmovie is a content aggregator and does not host or upload any
+          mkvcinemas is a content aggregator and does not host or upload any
           files on its servers. All media content accessible through this
           website is provided and hosted by third-party websites that are not
           affiliated with us in any way. We simply index links available
@@ -31,15 +31,15 @@ function DMCA() {
           operate.
         </p>
         <p className="mt-2">
-          We do not store or stream any copyrighted material on seeHDmovie. Our
+          We do not store or stream any copyrighted material on mkvcinemas. Our
           role is strictly limited to curating and indexing content links
-          already present across the web. seeHDmovie holds no ownership or
+          already present across the web. mkvcinemas holds no ownership or
           control over the content hosted on external websites.
         </p>
         <p className="mt-2">
           If you believe that any content on this site infringes your copyright,
           we urge you to directly contact the hosting website or file provider
-          responsible for storing the material. Since seeHDmovie does not host
+          responsible for storing the material. Since mkvcinemas does not host
           any content, we cannot take action regarding the actual files.
         </p>
         <p className="mt-2">
@@ -49,12 +49,12 @@ function DMCA() {
         </p>
         <h3 className="text-3xl mt-3 font-semibold mb-2">Legal Disclaimer</h3>{" "}
         <p className="mt-2">
-          seeHDmovie and all associated domains strictly provide link indexing
+          mkvcinemas and all associated domains strictly provide link indexing
           services. We do not store, host, or upload any media files on our
           servers. All links on our platform point to content hosted by
           independent third-party providers.
         </p>
-        <p className="mt-2">By accessing seeHDmovie, users acknowledge that:</p>
+        <p className="mt-2">By accessing mkvcinemas, users acknowledge that:</p>
         <ul className="text-white list-disc ml-5">
           <li>
             We are not liable for content found on any externally linked
@@ -74,7 +74,7 @@ function DMCA() {
           respective content host or file-sharing platform directly.
         </p>
         <p className="mt-2">
-          <strong>Note:</strong> seeHDmovie operates in full compliance with the
+          <strong>Note:</strong> mkvcinemas operates in full compliance with the
           Digital Millennium Copyright Act (DMCA). We support content creators
           and respect intellectual property rights.
         </p>
