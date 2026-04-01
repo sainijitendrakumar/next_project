@@ -113,8 +113,7 @@ export default async function Dataprofile({ params }) {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        {movie.title} {index + 1} | {movie.language} | [Link{" "}
-                        {index + 1}]
+                        {movie.title}
                       </a>
                     </div>
                   ))}
@@ -136,7 +135,7 @@ export default async function Dataprofile({ params }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {movie.title} | {movie.language} |
+              {movie.title}
             </a>
           </div>
         </div>
