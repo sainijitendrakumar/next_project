@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
 
       {/* Bottom Nav */}
-      <div className="flex flex-wrap mt-3 space-x-5 sm:space-x-6 text-[#c5ebff] font-medium">
+      <div className="flex flex-wrap mt-2 space-x-5 sm:space-x-6 text-[#c5ebff] font-medium">
         <Link href="/">Home</Link>
         <a
           href="/category/bollywood-movies"
