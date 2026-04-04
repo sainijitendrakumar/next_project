@@ -39,7 +39,7 @@ function HomePostCard({ item }) {
       {/* Title */}
       <div className="absolute bottom-3 left-4 right-4 flex justify-center items-center">
         <h2
-          className="text-center font-semibold tracking-tight text-white text-sm "
+          className="text-center font-semibold tracking-tight text-white text-sm"
           style={{ lineHeight: "1.2" }}
         >
           {item.title}
