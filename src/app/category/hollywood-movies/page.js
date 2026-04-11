@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <>
     <h1 className="font-bold font-sans text-2xl sm:text-3xl text-center text-red-600 my-4">
-      Best Filmyzilla Alternative for Hindi Dubbed Hollywood Movies
+      Best Filmyzilla Alternative for Hindi Dubbed Hollywood Movies - mkvcinemas
       </h1>
       <Hollywood />
     </>
