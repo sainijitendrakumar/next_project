@@ -57,7 +57,8 @@ export default async function Dataprofile({ params }) {
 
           <h3 className="text-red-700 text-xl sm:text-2xl font-bold my-2 text-center">
             <a
-              href="https://www.effectivegatecpm.com/bpb0tdptd?key=d3d83df6faaa064428686b1bb9a03642"
+              // href="https://www.effectivegatecpm.com/bpb0tdptd?key=d3d83df6faaa064428686b1bb9a03642"
+              href="https://www.profitablecpmratenetwork.com/zewhfdj5g?key=f5506b76e78aa6f95b45f9d047e535d8"
               target="_blank"
             >
               : DOWNLOAD LINKS :
