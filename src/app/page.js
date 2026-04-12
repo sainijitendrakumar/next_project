@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Mkvcinemas | Mkvcinemas.com | - Download movie in Hindi dubbed</title>
+        <title>Mkvcinemas | Mkvcinemas.com | Dual audio movies Hindi dubbed</title>
         <meta
           name="description"
           content="Download the latest Hollywood, Bollywood, and South Indian movies in HD quality. Fast and free movie download, no registration required. Only on SeeHDmovie."
