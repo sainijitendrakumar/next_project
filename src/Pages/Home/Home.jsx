@@ -98,7 +98,7 @@ export default async function BollywoodMovies() {
       </div>
 
       {/* Movie Cards */}
-      <div className="w-full flex flex-wrap card">
+      <div className="w-full flex flex-wrap justify-center items-center card">
         {data && data.length !== 0 ? (
           data.map((movie) => (
             <Link
