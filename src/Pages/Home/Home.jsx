@@ -71,7 +71,8 @@ import { databases } from "../../Appwrite/Auth";
 import conf from "../../conf/conf";
 import { Query } from "appwrite";
 import HomePostCard from "../../Components/Moviecard/HomePostCard";
-import Banner from "../../Components/Adsterra/Banner/Banner_760x60/Banner";
+// import Banner from "../../Components/Adsterra/Banner/Banner_760x60/Banner";
+import Banner from "../../Components/Adsterra/Banner/Banner_468x60/Banner";
 import Link from "next/link";
 
 // ✅ Server Component (no "use client")
