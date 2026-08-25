@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 function Banner() {
   const banner = useRef(null);
