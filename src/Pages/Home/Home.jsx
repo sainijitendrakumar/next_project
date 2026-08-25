@@ -106,9 +106,9 @@ export default async function BollywoodMovies() {
         </div>
 
         {/* Tablet */}
-        {/* <div className="hidden min-[576px]:block min-[992px]:hidden">
+        <div className="hidden min-[576px]:block min-[992px]:hidden">
           <Banner468 />
-        </div> */}
+        </div>
 
         {/* Desktop */}
         {/* <div className="hidden min-[992px]:block">
