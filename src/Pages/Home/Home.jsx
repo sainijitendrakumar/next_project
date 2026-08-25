@@ -67,7 +67,6 @@
 // export default Home;
 
 // app/category/bollywood/page.jsx
-import "/style.css";
 import { databases } from "../../Appwrite/Auth";
 import conf from "../../conf/conf";
 import { Query } from "appwrite";
@@ -100,16 +99,19 @@ export default async function BollywoodMovies() {
         <Banner />
       </div> */}
 
-      <div className="banner-wrapper">
-        <div className="banner-320">
+      <div className="w-full flex justify-center items-center">
+        {/* Mobile */}
+        <div className="block sm:hidden">
           <Banner320 />
         </div>
 
-        <div className="banner-468">
+        {/* Tablet */}
+        <div className="hidden sm:block lg:hidden">
           <Banner468 />
         </div>
 
-        <div className="banner-760">
+        {/* Desktop */}
+        <div className="hidden lg:block">
           <Banner760 />
         </div>
       </div>
