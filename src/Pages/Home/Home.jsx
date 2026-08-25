@@ -106,12 +106,12 @@ export default async function BollywoodMovies() {
         </div>
 
         {/* Tablet */}
-        <div className="hidden sm:block lg:hidden">
+        <div className="hidden sm:block md:hidden">
           <Banner468 />
         </div>
 
         {/* Desktop */}
-        <div className="hidden lg:block">
+        <div className="hidden md:block">
           <Banner760 />
         </div>
       </div>
