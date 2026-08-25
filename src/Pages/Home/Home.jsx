@@ -67,7 +67,7 @@
 // export default Home;
 
 // app/category/bollywood/page.jsx
-import "./style.css";
+import "/style.css";
 import { databases } from "../../Appwrite/Auth";
 import conf from "../../conf/conf";
 import { Query } from "appwrite";
