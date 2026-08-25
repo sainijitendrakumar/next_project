@@ -29,3 +29,37 @@
     transform: scale(1.05);
     cursor: pointer;
 } */
+
+.banner-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-320,
+.banner-468,
+.banner-760 {
+    display: none;
+}
+
+/* Mobile */
+@media (max-width: 639px) {
+    .banner-320 {
+        display: block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 640px) and (max-width: 1023px) {
+    .banner-468 {
+        display: block;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .banner-760 {
+        display: block;
+    }
+}

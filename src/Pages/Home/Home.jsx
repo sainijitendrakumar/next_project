@@ -99,19 +99,16 @@ export default async function BollywoodMovies() {
         <Banner />
       </div> */}
 
-      <div className="w-full flex justify-center items-center">
-        {/* Mobile */}
-        <div className="block sm:hidden">
+      <div className="banner-wrapper">
+        <div className="banner-320">
           <Banner320 />
         </div>
 
-        {/* Tablet */}
-        <div className="hidden sm:block lg:hidden">
+        <div className="banner-468">
           <Banner468 />
         </div>
 
-        {/* Desktop */}
-        <div className="hidden lg:block">
+        <div className="banner-760">
           <Banner760 />
         </div>
       </div>
