@@ -111,9 +111,9 @@ export default async function BollywoodMovies() {
         </div>
 
         {/* Desktop */}
-        {/* <div className="hidden min-[992px]:block">
+        <div className="hidden min-[992px]:block">
           <Banner760 />
-        </div> */}
+        </div>
       </div>
 
       {/* Movie Cards */}

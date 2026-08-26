@@ -3,7 +3,9 @@ import { databases } from "../../../Appwrite/Auth";
 import conf from "../../../conf/conf";
 import { Query } from "appwrite";
 import HomePostCard from "../../../Components/Moviecard/HomePostCard";
-import Banner from "../../../Components/Adsterra/Banner/Banner_760x60/Banner";
+import Banner760 from "../../Components/Adsterra/Banner/Banner_760x60/Banner";
+import Banner468 from "../../Components/Adsterra/Banner/Banner_468x60/Banner";
+import Banner320 from "../../Components/Adsterra/Banner/Banner_320x50/Banner";
 import Link from "next/link";
 
 // ✅ Server Component (no "use client")
@@ -14,7 +16,7 @@ export default async function Animation() {
     const res = await databases.listDocuments(
       conf.appwriteDatabaseId,
       conf.appwriteCollectionId,
-      [Query.equal("movie-type", "animation"), Query.orderDesc("$createdAt")]
+      [Query.equal("movie-type", "animation"), Query.orderDesc("$createdAt")],
     );
 
     data = res.documents;
@@ -26,7 +28,20 @@ export default async function Animation() {
     <div>
       {/* Banner */}
       <div className="w-full flex justify-center items-center">
-        <Banner />
+        {/* Mobile */}
+        <div className="block min-[576px]:hidden">
+          <Banner320 />
+        </div>
+
+        {/* Tablet */}
+        <div className="hidden min-[576px]:block min-[992px]:hidden">
+          <Banner468 />
+        </div>
+
+        {/* Desktop */}
+        <div className="hidden min-[992px]:block">
+          <Banner760 />
+        </div>
       </div>
 
       {/* Movie List */}
