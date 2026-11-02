@@ -126,7 +126,7 @@ export default async function Dataprofile({ params }) {
           {/* ✅ Telegram Link (always show) */}
           <p className="font-[12px] text-[#aaa] my-4">
             <span className="bg-[#FF6D00] text-white font-bold text-[15px] sm:text-[20px] px-[38px] py-[19px] rounded-[7px]">
-              Telegram Links:
+              Telegram Links:-
             </span>
           </p>
           <div className="sm:w-2/3 my-2.5 p-1 text-white bg-[#7d3741] border text-center border-red-500 rounded-3xl">
