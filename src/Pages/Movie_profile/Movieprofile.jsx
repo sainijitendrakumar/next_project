@@ -55,9 +55,9 @@ export default async function Dataprofile({ params }) {
             Download | {movie.title}
           </h2>
 
-          {/* <p className="font-bold text-xl sm:text-3xl my-3 text-center">
+          <p className="bg-[#3c763d] border border-[#faebcc] text-white text-center px-[15px] py-[3px] rounded-[6px] mb-[10px] mt-[5px]">
             Click on the Below Download Button to Download file
-          </p> */}
+          </p>
 
           <h3 className="text-red-700 text-xl sm:text-2xl font-bold my-2 text-center">
             <a
