@@ -33,13 +33,17 @@ export default async function Dataprofile({ params }) {
       {data.map((movie) => (
         <div className="flex flex-col items-center" key={movie.$id}>
           <h1 className="text-xl sm:text-2xl font-bold py-2 text-center">
-            Download | {movie.title}
+            Download | {movie.title} | Dual Audio | Full Movie 480p 720p 1080p
           </h1>
 
           <p className="w-2/3 sm:text-xl font-semibold text-center py-2">
             {movie.discription}
           </p>
-
+          <p className="w-2/3 sm:text-xl font-semibold text-center py-2">
+            Looking to download {movie.title} in high quality? You are at the
+            right place. We provide the best G-Drive direct links for the movie
+            {movie.title} in Duel Audio.
+          </p>
           <img
             src={movie.img_url}
             alt={movie.title}
